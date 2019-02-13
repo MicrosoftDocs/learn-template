@@ -3,6 +3,12 @@
     "content": [
       {
         "files": [
+          "achievements.yml"
+        ],
+        "dest": "achievements/REPO_NAME/"
+      },
+      {
+        "files": [
           "**/*.md",
           "**/*.yml"
         ],
@@ -21,8 +27,11 @@
     "resource": [
       {
         "files": [
+          "**/*.gif",
           "**/*.png",
-          "**/*.jpg"
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
         ],
         "exclude": [
           "**/obj/**",
@@ -35,9 +44,11 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/learn-template/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "breadcrumb_path": "/learn/breadcrumb/toc.json",
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/learn",
+      "clicktale": true,
+      "uhfHeaderId":"MSDocsHeader-Learn"
     },
     "fileMetadata": {},
     "template": [],
