@@ -37,7 +37,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/learn-template/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "Standard"
     },
     "fileMetadata": {},
     "template": [],
