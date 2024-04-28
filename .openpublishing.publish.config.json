@@ -8,13 +8,6 @@
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
-      "type_mapping": {
-        "Achievements": "Toc",
-        "LearningPath": "Content",
-        "Module": "Content",
-        "ModuleUnit": "Content",
-        "ZonePivotGroups": "Toc"
-      },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "customized_tasks": {
@@ -48,8 +41,5 @@
       "version": "latest"
     }
   ],
-  "need_generate_pdf_url_template": false,
-  "docs_build_engine": {
-    "name": "docfx_v3"
-  }
+  "need_generate_pdf_url_template": false
 }
